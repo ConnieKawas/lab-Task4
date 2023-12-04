@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LabTask4
+</name>
+</assembly>
+<members>
+<member name="T:LabTask4.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LabTask4.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LabTask4.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.AuthorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.ListOfSoftwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.LogInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.AuthorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.ListOfSoftwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.LogInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.AuthorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.ListOfSoftwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet.LogInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSetTableAdapters.AuthorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSetTableAdapters.ListOfSoftwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSetTableAdapters.LogInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.SoftwareRepositoryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.SoftwareRepositoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.SoftwareRepositoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.UpdateAll(LabTask4.SoftwareRepositoryDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.AuthorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.ListOfSoftwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.LogInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.AuthorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.ListOfSoftwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.LogInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.AuthorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.ListOfSoftwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1.LogInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1TableAdapters.AuthorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1TableAdapters.ListOfSoftwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1TableAdapters.LogInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.SoftwareRepositoryDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.SoftwareRepositoryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.SoftwareRepositoryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.UpdateAll(LabTask4.SoftwareRepositoryDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.SoftwareRepositoryDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
